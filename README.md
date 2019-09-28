@@ -23,7 +23,8 @@ Reduce the code for a redux application as much as possible.
 
 We would take example of a simple counter which would have 3 operations. <br>
 
-<img src="https://s3.amazonaws.com/awesomescreenshot/upload//1032917/2d5f5ff3-337d-4f32-6977-e8a2c6f7ad64.png?AWSAccessKeyId=AKIAJSCJQ2NM3XLFPVKA&Expires=1569670696&Signature=SXaVL3jDKFry5GRwVkc4GoAWAtQ%3D" width="500">
+![](counter.gif)
+<!-- <img src="https://s3.amazonaws.com/awesomescreenshot/upload//1032917/2d5f5ff3-337d-4f32-6977-e8a2c6f7ad64.png?AWSAccessKeyId=AKIAJSCJQ2NM3XLFPVKA&Expires=1569670696&Signature=SXaVL3jDKFry5GRwVkc4GoAWAtQ%3D" width="500"> -->
 
 Each of the actions would be handled by **redux**
 
