@@ -32,7 +32,7 @@ Each of the actions would be handled by **redux**
 
 	  *Write an action, reducer and selector as shown below*
 
-######action.js
+###### action.js
 
 ```javascript
 export const INCREMENT = 'counter/increment';
@@ -58,7 +58,7 @@ export const clear = () => {
 };
 
 ```
-######reducer.js
+###### reducer.js
 
 ```javascript
 const INITIAL_STATE = 10;
@@ -77,11 +77,11 @@ export const counter = (state = INITIAL_STATE, action) => {
   }
 };
 ```
-######selector.js
+###### selector.js
 
 ```javascript
 export const getCounter = (state) => {
-    return state.manualCounter;
+    return state.counter;
 }
 ```
 Now with the help of **createSlice** method we are good to go with just the following code
