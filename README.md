@@ -84,6 +84,8 @@ export const getCounter = (state) => {
     return state.counter;
 }
 ```
+2. ##### Modern Way
+
 Now with the help of **createSlice** method we are good to go with just the following code
 
 ```javascript
