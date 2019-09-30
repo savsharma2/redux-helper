@@ -81,7 +81,7 @@ export const counter = (state = INITIAL_STATE, action) => {
 
 ```javascript
 export const getCounter = (state) => {
-    return state.manualCounter;
+    return state.counter;
 }
 ```
 Now with the help of **createSlice** method we are good to go with just the following code

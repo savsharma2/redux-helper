@@ -1,8 +1,9 @@
 import { connect } from 'react-redux';
 import { counter } from './action-reducer-selector';
+import Counter from '../counter';
+
 const { actions: counterActions, selectors } = counter;
 
-import Counter from '../counter';
 
 
 const { getCounter } = selectors;

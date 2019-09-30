@@ -1,5 +1,6 @@
-const INITIAL_STATE = 10;
 import { INCREMENT, DECREMENT, CLEAR } from './action';
+
+const INITIAL_STATE = 10;
 
 export const counter = (state = INITIAL_STATE, action) => {
   switch (action.type) {
