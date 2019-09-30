@@ -5,7 +5,7 @@ Below you will fpurpose and motivation for the project.<br>
 
 ## Table of Contents
 
-- [Motivation](#updating-to-new-releases)
+- [Motivation](#motivation)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
   - [npm run build](#npm-run-build)
